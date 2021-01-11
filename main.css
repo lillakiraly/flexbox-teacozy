@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+    width: 1200px;
+}
+/* Header */
+nav {
+    position: fixed;
+    height: 69px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+.logo-img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+ul {
+    display: inline;
+    text-align:end;
+}
+li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0 10px;
+}
+/*Main */
+
+.mission {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./images/img-mission-background.webp);
+}
+.mission-h {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.featured-tea {
+    width: 1000px;
+}
+.featured-tea-h {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tea-img {
+    margin-bottom: 10px;
+}
+figure {
+    margin: 25px 15px 0 15px;
+    font-weight: bold;
+}
+
+.locations {
+    height: 500px;
+    background-image: url(./images/img-locations-background.webp);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.locations-h {
+    margin-bottom: 15px;
+}
+.locations-container {
+  display: flex;
+  justify-content: center;
+}
+.locations-items {
+    width: 300px;
+    height: auto;
+    background-color: black;
+    margin: 0 20px;
+    opacity: 1;
+    line-height: 3em;
+}
+
+/* Footer */
+
+.contact {
+    height: 200px;
+    margin-top: 15px;
+}
+.contact-email {
+    margin: 30px 0;
+}
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
